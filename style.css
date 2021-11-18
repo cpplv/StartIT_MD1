@@ -1,0 +1,84 @@
+.wrapper
+{
+    background:#41dd11;
+	padding: 50px;
+	width: 700px;       /*➕*/
+	margin-left: auto;  /*➕*/
+	margin-right: auto; /*➕*/
+}
+
+
+
+h1
+{
+    text-align: center;
+    background:#f1ee0e;
+    padding-left: 100px;       /*➕*/
+    padding-right: 100px;       /*➕*/
+    padding-top: 50px;       /*➕*/
+    padding-bottom: 50px;       /*➕*/
+    
+}
+
+h2
+{
+    text-align: left;
+    padding-left: 100px;       /*➕*/
+    padding-right: 100px;       /*➕*/
+}
+
+h3
+{
+    text-align: right;
+    padding-left: 100px;       /*➕*/
+    padding-right: 100px;       /*➕*/
+}
+
+ul
+{
+    text-align: center;
+	padding: 0px; /*➕*/
+}
+
+li
+{
+    display: inline-block;
+}
+
+.game
+{
+    width: 420px;
+    background: rgb(231, 235, 12);
+	text-align: center;  /*➕*/
+	margin-left: auto;   /*➕*/
+	margin-right: auto;  /*➕*/
+    padding: 10px; /*➕*/
+}
+
+.letter
+{
+    display: inline-block;
+    background: rgb(207, 146, 15);
+    width: 50px;
+    height: 50px;
+    border:10px solid rgb(116, 1, 1);
+	text-align: center;  /*➕*/
+    padding: 10px 10;
+	margin:5px;          /*➕*/
+	font-size: 40px;     /*➕*/
+}
+
+.points
+{
+    display: inline-block;
+    background: rgb(207, 146, 15);
+    width: 100px;
+    height: 50px;
+    border:10px solid rgb(116, 1, 1);
+	text-align: center;  /*➕*/
+	margin:5px;          /*➕*/
+	font-size: 40px;     /*➕*/
+}
+
+
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sajaukto burtu spēle</title>
+</head>
+<body onload="f_date()"> 
+
+    <script type="text/javascript">
+        function f_date()
+        {
+            temp_date = new Date();
+            day = temp_date.getDate();
+            month = temp_date.getMonth() + 1;
+            year = temp_date.getFullYear();
+            if (day < 10) 
+            {
+                day = "0" + day;
+            }
+            if (month <10) 
+            {
+                month = "0" + month;
+            }
+    
+            document.getElementById('dateFolder').innerHTML = day + "." + month + "." + year;
+        }
+
+    </script>
+    
+    <div class="wrapper">
+        Šodienas datums: <div id="dateFolder"></div>
+        <div id="current_date_time_block"></div>
+        <div class="header">
+            <h1>
+                <div class="letter">&nbsp</div>
+                Sajaukto burtu spēle
+                <div class="letter">&nbsp</div>
+            </h1>
+
+            <ul>
+                <li>
+                    <a href="noteikumi.html">
+                    Spēles noteikumi
+                    </a>
+                </li>
+                <li>
+                    <a href="top.html">
+                    Tops
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <h3>Punktu skaits<div class="points">25</div></h3>
+        
+        <div class="content">
+            <h2>Paņem burtus</h2>
+
+            <div class="game">
+                <div class="letter">A</div>
+                <div class="letter">B</div>
+                <div class="letter">C</div>
+                <div class="letter">D</div>
+                <div class="letter">E</div>
+                <div class="letter">F</div>
+                <div class="letter">G</div>
+                <div class="letter">H</div>
+                <div class="letter">J</div>
+                <div class="letter">H</div>
+                <div class="letter">I</div>
+                <div class="letter">J</div>
+                <div class="letter">K</div>
+                <div class="letter">L</div>
+                <div class="letter">M</div>
+                <div class="letter">N</div>
+                <div class="letter">O</div>
+                <div class="letter">P</div>
+                <div class="letter">Q</div>
+                <div class="letter">R</div>
+            </div>
+            <br><br><br>
+            <h2>Sastādi vārdu</h2>
+
+            <div class="game">
+                <div class="letter">&nbsp</div>
+                <div class="letter">&nbsp</div>
+                <div class="letter">&nbsp</div>
+                <div class="letter">&nbsp</div>
+                <div class="letter">&nbsp</div>
+    
+            </div>
+            <br><br>
+            <a href="par.html"> Par autoru</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
