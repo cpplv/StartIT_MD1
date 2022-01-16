@@ -8,8 +8,9 @@
     <title>Sajaukto burtu spēle</title>
 </head>
 <body onload="f_date()"> 
-
+<p id="about"></p>
     <script type="text/javascript">
+	
         function f_date()
         {
             temp_date = new Date();
@@ -29,7 +30,7 @@
         }
 
     </script>
-    
+
     <div class="wrapper">
         Šodienas datums: <div id="dateFolder"></div>
         <div id="current_date_time_block"></div>
@@ -54,42 +55,21 @@
             </ul>
         </div>
 
-        <h3>Punktu skaits<div class="points">25</div></h3>
+        <h3>Punktu skaits<div class="points" id="pts">0</div></h3>
         
-        <div class="content">
+        <div class="content" id="game_field">
             <h2>Paņem burtus</h2>
 
-            <div class="game">
-                <div class="letter">A</div>
-                <div class="letter">B</div>
-                <div class="letter">C</div>
-                <div class="letter">D</div>
-                <div class="letter">E</div>
-                <div class="letter">F</div>
-                <div class="letter">G</div>
-                <div class="letter">H</div>
-                <div class="letter">J</div>
-                <div class="letter">H</div>
-                <div class="letter">I</div>
-                <div class="letter">J</div>
-                <div class="letter">K</div>
-                <div class="letter">L</div>
-                <div class="letter">M</div>
-                <div class="letter">N</div>
-                <div class="letter">O</div>
-                <div class="letter">P</div>
-                <div class="letter">Q</div>
-                <div class="letter">R</div>
+            <div class="game" id="for_letters">			
+			<!-- letter brick generation-->
+				
             </div>
+			
             <br><br><br>
             <h2>Sastādi vārdu</h2>
 
-            <div class="game">
-                <div class="letter">&nbsp</div>
-                <div class="letter">&nbsp</div>
-                <div class="letter">&nbsp</div>
-                <div class="letter">&nbsp</div>
-                <div class="letter">&nbsp</div>
+            <div class="game" id="word">
+			<!-- place for word-->
     
             </div>
             <br><br>
@@ -97,6 +77,9 @@
         </div>
 
     </div>
+
+<script src="code.js">
+</script>		
 
 </body>
 </html>
